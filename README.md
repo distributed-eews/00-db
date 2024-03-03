@@ -46,7 +46,7 @@ Pada repo ini terdapat 3 services:
    docker-compose -f docker-compose.seeder.yaml up -d
    ```
 
-   - Periksa status container untuk memastikan Producer berjalan dengan baik:
+   - Periksa status container untuk memastikan layanan berjalan dengan baik:
 
      ```sh
      docker-compose ps
