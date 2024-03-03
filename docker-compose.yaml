@@ -1,0 +1,10 @@
+version: '3'
+services:
+  redis:
+    image: redis
+    container_name: redis
+    volumes:
+      - redis_data:/data
+
+volumes:
+  redis_data:
