@@ -18,7 +18,7 @@ services:
       - '27017:27017'
 
   seeder:
-    image: pragusga/eews:seeder
+    image: pragusga/eews:seeder-v1
     container_name: seeder
     depends_on:
       - redis
