@@ -2,6 +2,7 @@ version: '3'
 services:
   redis:
     image: redis
+    command: redis-server --requirepass eews2024zat1234XyZ
     container_name: redis
     volumes:
       - redis_data:/data
