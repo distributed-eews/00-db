@@ -1,7 +1,7 @@
 version: '3'
 services:
   seeder:
-    image: pragusga/eews:seeder
+    image: pragusga/eews:seeder-v1
     container_name: seeder
     environment:
       - REDIS_HOST=<redis_host>
