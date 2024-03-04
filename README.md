@@ -15,11 +15,11 @@ Pada repo ini terdapat 3 services:
 
 ## Deployment Steps
 
-1. **Konfigurasi Producer**
+1. **Konfigurasi Layanan**
 
    - Pastikan environment variables pada `docker-compose.yaml` sudah benar.
 
-2. **Menjalankan Producer**
+2. **Menjalankan Layanan**
 
    - Navigasikan ke direktori tempat file `docker-compose.yaml` berada.
    - Jalankan perintah berikut untuk mendeploy 3 layanan sekaligus:
