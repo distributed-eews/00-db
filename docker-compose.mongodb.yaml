@@ -7,6 +7,8 @@ services:
       - mongodb_data:/data/db
     ports:
       - '27017:27017'
+    environment:
+      - MONGO_INITDB_DATABASE=<database_name>
 
 volumes:
   mongodb_data:
